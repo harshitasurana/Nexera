@@ -1,4 +1,4 @@
-const BASE = "http://localhost:5000/api";
+const BASE = "https://nexera-backend-ux9t.onrender.com/api";
 
 function getToken(): string | null {
   return localStorage.getItem("nexera_admin_token");
